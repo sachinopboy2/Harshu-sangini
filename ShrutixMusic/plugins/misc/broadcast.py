@@ -31,6 +31,11 @@ async def braodcast_message(client, message, _):
             "ᴏɴʟʏ ʏᴏᴜʀ ᴘᴀᴘᴀ ɴᴏʙɪᴛᴀ ᴄᴀɴ ᴅᴏ ᴛʜɪs",
             "यही पटक के चोद देंगे मादरचोद 🖕",
             "ғ*ᴄᴋ ᴏғғ",
+            "TERI SEXY BAHEN KI CHUT OP",
+            "TERI BEHN KI CHUT ME KELE KE CHILKE 🍌🍌😍",
+            "Teri maa KO SARAK PE LETAA DUNGA 😜",
+            "Only owner can use this baby 🔒",
+            "Gote kitne bhi bade ho, lund ke niche hi rehte hai💀😂 "
         ]
         return await message.reply_text(random.choice(fun_messages))
     
@@ -177,3 +182,4 @@ async def auto_clean():
 
 
 asyncio.create_task(auto_clean())
+
