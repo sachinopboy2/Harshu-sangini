@@ -1,8 +1,8 @@
 import random
 from typing import Dict, List, Union
 
-from BrandrdXMusic import userbot
-from BrandrdXMusic.core.mongo import mongodb, pymongodb
+from ShrutixMusic import userbot
+from ShrutixMusic.core.mongo import mongodb, pymongodb
 
 authdb = mongodb.adminauth
 authuserdb = mongodb.authuser
@@ -980,3 +980,4 @@ async def add_served_chat_clone(chat_id: int):
 
 async def delete_served_chat_clone(chat_id: int):
     await chatsdbc.delete_one({"chat_id": chat_id})
+
